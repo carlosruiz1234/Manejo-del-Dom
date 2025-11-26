@@ -1,0 +1,71 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  text-align: center;
+  background: url(imagenes/Suna-Suna-no-Mi.jpg) no-repeat center center/cover;
+
+}
+#contenedor{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  width: 50vh;
+  max-width: 400px;
+  background-color: rgb(216, 216, 216);
+  border: 4px solid black;
+}
+h1{
+  font-size: 1.5rem;
+  width: 100%;
+  margin: 20px 5px;
+}
+.fondo{
+  font-size:1.5rem;
+  font-weight: bold;
+  color:white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 80px;
+  margin: 15px 0;
+}
+#titulo{
+  font-family: sans-serif;
+}
+ul{
+
+  user-select: none;
+  width: 100%;
+  height: 100%;
+}
+#phoenix{
+  background-color: rgb(30, 253, 235);
+  color:rgb(46, 46, 46);
+}
+#arena{
+  background-color: rgb(192, 206, 0);
+  color:rgb(46, 46, 46);
+}
+#dragon{
+   background-color: rgb(29, 25, 255);
+   
+}
+#control{
+   background-color: rgb(255, 24, 24);
+   
+}
+li:hover{
+  opacity: 50%;
+}
