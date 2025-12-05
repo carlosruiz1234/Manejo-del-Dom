@@ -1,0 +1,72 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    background: url(imagenes/fondos.png) no-repeat center center fixed;
+}
+.container{
+    background: rgba(126, 124, 0, 0.26); /* 0.8 = 80% opaco, 20% transparente */
+    border-radius:10px;
+    padding:20px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    width:300px;
+}
+.display{
+    margin-bottom:15px;
+}
+#resultado{
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    text-align: right;
+    padding:10px;
+    border-radius:5px;
+    background: rgba(155, 111, 255, 0.932);
+}
+.botones{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+button{
+    height: 60px;
+    font-size: 20px;
+    border:none;
+    border-radius:15px;
+    cursor:pointer;
+    background: #ffffff;
+    transition: background 0.3s;
+}
+.operador{
+    background-color: rgba(182, 151, 255, 0.932);
+}
+.operador-equal{
+    background-color:rgba(115, 54, 255, 0.932); ;
+
+}
+button:hover{
+    background: #c0c0c0;
+}
+button:active{
+    background: #858585;
+}
+.operador:hover{
+    background: #e68600;
+}
+.operador:active{
+    background: #cc7700;
+}
+.igual{
+    grid-column:span 2;
+
+}
+button:nth-child(17){
+    grid-column:span 2;
+}
