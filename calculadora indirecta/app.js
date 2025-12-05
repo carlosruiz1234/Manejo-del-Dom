@@ -3,8 +3,7 @@ const resultado = document.getElementById('resultado');
 
 
 function agregarNumero(num) {
-    if (resultado.value === '0' || resultado.value === 'Error') {// Evitar múltiples ceros al inicio o reemplazar 'Error'   
-        resultado.value = num;
+    if (resultado.value === '0' || resultado.value === 'Error') {
     } else {
         resultado.value += num;
     }
